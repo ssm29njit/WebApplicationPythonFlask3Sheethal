@@ -1,0 +1,61 @@
+CREATE DATABASE citiesData;
+use citiesData;
+
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS tblCitiesImport(
+  Month VARCHAR(100),
+  1958 DECIMAL(10, 2),
+  1959 DECIMAL(10, 2)
+);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('JAN  340', 360, 417);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('FEB  318', 342, 391);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('MAR  362', 406, 419);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('APR  348', 396, 461);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('MAY  363', 420, 472);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('JUN  435', 472, 535);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('JUL  491', 548, 622);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('AUG  505', 559, 606);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('SEP  404', 463, 508);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('OCT  359', 407, 461);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('NOV  310', 362, 390);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('DEC  337', 405, 432);
+/* INSERT QUERY */
+INSERT INTO tblCitiesImport(Month, 1958, 1959, 1960)
+VALUES
+  ('');
